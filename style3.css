@@ -1,0 +1,214 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #F0F2F5;
+
+}
+
+.cartao{ 
+    width: 320px;
+    margin: 50px auto;
+    padding: 24px;
+    border: 2px solid #1E3C82;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+#titulo-evento{
+    font-size: 22px;
+    color: #13285A;
+    margin: 12px 0 8px;
+}
+
+.etiqueta{
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 4px 12px;
+    background-color: #B08A2E;
+    font-size: 12px;
+}
+
+.descricao{
+    font-size: 14px;
+    color: #444444;
+    line-height: 1.5;
+}
+
+.detalhes{
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+}
+
+.detalhes li{
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 8px 0;
+
+}
+
+.preco{
+    font-size: 20px;
+    color: #1E3C82;
+    font-weight: bold;
+    margin: 16px 0 4px;
+}
+
+.preco .obs{
+    font-size: 12px;
+    color: #888888;
+    font-weight: normal;
+}
+
+.botao{
+    display: block;
+    padding: 12px;
+    background-color: #1E3C82;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+
+.cartao2{ 
+    width: 320px;
+    margin: 50px auto;
+    padding: 24px;
+    border: 2px solid #dc1313;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+#titulo-evento2{
+    font-size: 22px;
+    color: #dc1313;
+    margin: 12px 0 8px;
+}
+
+.etiqueta2{
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 4px 12px;
+    background-color: #931717;
+    font-size: 12px;
+}
+
+.descricao2{
+    font-size: 14px;
+    color: #444444;
+    line-height: 1.5;
+}
+
+.detalhes2{
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+}
+
+.detalhes2 li{
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 8px 0;
+
+}
+
+.preco2{
+    font-size: 20px;
+    color: #dc1313;
+    font-weight: bold;
+    margin: 16px 0 4px;
+}
+
+.preco2 .obs2{
+    font-size: 12px;
+    color: #888888;
+    font-weight: normal;
+}
+
+.botao2{
+    display: block;
+    padding: 12px;
+    background-color: #dc1313;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.cartao3{ 
+    width: 320px;
+    margin: 50px auto;
+    padding: 24px;
+    border: 2px solid #4b99a5;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+#titulo-evento3{
+    font-size: 22px;
+    color: #4caab8;
+    margin: 12px 0 8px;
+}
+
+.etiqueta3{
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 4px 12px;
+    background-color: #00ddff;
+    font-size: 12px;
+}
+
+.descricao3{
+    font-size: 14px;
+    color: #444444;
+    line-height: 1.5;
+}
+
+.detalhes3{
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+}
+
+.detalhes3 li{
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 8px 0;
+
+}
+
+.preco3{
+    font-size: 20px;
+    color: #4caab8;
+    font-weight: bold;
+    margin: 16px 0 4px;
+}
+
+.preco3 .obs3{
+    font-size: 12px;
+    color: #888888;
+    font-weight: normal;
+}
+
+.botao3{
+    display: block;
+    padding: 12px;
+    background-color: #00ddff;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+
+
+
+
