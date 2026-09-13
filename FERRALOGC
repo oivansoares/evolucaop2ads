@@ -1,0 +1,72 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+
+    int opcao;
+    char nome_ferramenta[50];
+    int codigo_qr;
+    float valor_compra;
+
+    printf("==================================================\n");
+    printf("          SISTEMA FERRALOG - INVENTARIO           \n");
+    printf("==================================================\n");
+
+    printf("\nBem-vindo ao controle logistico de ferramentas.\n\n");
+
+    printf("Selecione uma opcao no menu abaixo:\n");
+    printf("[1] Cadastrar nova ferramenta\n");
+    printf("[2] Consultar ferramenta por Setor\n");
+    printf("[3] Verificar status de garantia\n");
+    printf("[4] Sair do sistema\n");
+
+    printf("==================================================\n");
+    printf("Digite a opcao desejada: ");
+    scanf("%d",&opcao);
+
+
+    switch(opcao){
+
+        case 1:
+
+            printf("Nome da ferramenta: ");
+            scanf("%s", nome_ferramenta);
+
+            printf("Codigo QR: ");
+            scanf("%d", &codigo_qr);
+
+            printf("Valor da compra: R$ ");
+            scanf("%f", &valor_compra);
+
+            system("cls");
+
+
+            printf("--- RECIBO FERRALOG ---\n");
+            printf("Ferramenta: %s\n", nome_ferramenta);
+            printf("QR Code: %d\n", codigo_qr);
+            printf("Valor: R$ %.2f\n", valor_compra);
+
+            break;
+
+    case 2 :
+        printf("Modulo em desenvolvimento....");
+        break;
+
+    case 3:
+          printf("Modulo em desenvolvimento....");
+        break;
+
+
+    
+    case 4:
+          printf("Voce saiu do sistema....");
+    break;
+    default:
+        printf("Opcao Invalida");
+        break;
+
+
+    return 0;
+}
+
+
+    }
