@@ -18,7 +18,7 @@ h2  {
 
 /* Classes */
 .paragrafo{
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     color: white;
     padding: 50px;
 }
@@ -66,4 +66,51 @@ h2{
 
 
     color: #a5f 
+}
+
+/* o ultimo indice ajusta a opacidade do texto */
+
+.rgba{
+
+ 
+    color: rgb(0,255,255,0.1)
+
+}
+
+/* Background */
+
+.fundo{
+
+    background-color: #559900;
+    color: pink
+
+
+}
+
+.bg{
+
+    border-bottom: 5px solid rgb(7, 7, 7) ;
+    background-color: rgb(200,20,40);
+    color: cyan
+}
+
+/* Background opacity */
+
+.bg-opacity{
+
+    background-color: green;
+    opacity: 0.2;
+
+
+
+}
+.bg-opacity2{
+
+    background-color: rgb(5, 197, 251);
+    opacity: 0.1;
+    color: #9c1010
+    
+
+
+
 }
