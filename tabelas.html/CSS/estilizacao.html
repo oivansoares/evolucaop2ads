@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+   <!-- Internal CSS -->
+   
+   <style>
+        p {
+            color: green;
+        }
+    </style>
+    <!-- External CSS -->
+
+    <link rel="stylesheet" href="estiliza.css">
+    <link rel="stylesheet" href="lists.css">
+
+</head>
+
+<body>
+    <!-- Inline CSS-->
+    <h2 style="color: blue;">Mudar cor do texto</h2>
+
+    <!-- Múltiplas regras CSS -->
+
+    <h2 style="color: red; font-size: 30px; border-bottom: 1px solid black;">Mudar cor e tamanho do texto</h2>
+
+    <!-- Internal CSS -->
+    
+    <p>Este é um parágrafo com estilo interno.</p>
+    <p>Mais um vez fui estilizado com CSS interno.</p>
+
+    <!-- External CSS -->
+
+    <h2>Este é um título estilizado com CSS externo.</h2>
+
+    <!-- Ordem do CSS -->
+    <!-- 1. Inline CSS -->
+    <!-- 2. Internal CSS -->
+    <!-- 3. External CSS -->
+
+
+    <P style="color: red;">Este é um parágrafo com estilo inline.</P>
+    <p>Ordem do CSS</p>
+
+    <!-- Multiplos CSS -->
+
+    <ul>
+        <li>Inline CSS</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+    </ul>
+
+    <!-- Classes -->
+
+     <p class="paragrafo">Este é um parágrafo com estilo de classe.</p>
+    <p class="paragrafo">Mais um parágrafo com estilo de classe.</p>
+
+    <!-- IDs -->
+
+    <h1 id="titulo">Este é um título com estilo de ID.</h1>
+
+    <!-- Ordem dos seletores -->
+    
+     <h2 id="outro_titulo" class="subtitulo">Este é um subtítulo com estilo de ID e classe.</h2>
+      <h2 class="subtitulo">Este é um subtítulo com estilo de ID e classe.</h2>
+       <h2>Este é um subtítulo com estilo de ID e classe.</h2>
+
+       <!-- Cores em CSS -->
+
+        <h1 style="color: #FF5733;">Este é um título com cor hexadecimal.</h1>
+        <h1 style="color: rgb(251, 87, 51);">Este é um título com cor RGB.</h1>
+        <h1 style="color: rgba(255, 87, 51, 0.5);">Este é um título com cor RGBA.</h1>
+        <h1 style="color: hsl(11, 80%, 50%);">Este é um título com cor HSL.</h1>
+        <h1 style="color: red;">Este é um título com cor nomeada.</h1>
+        <p class="color-name">Este é um parágrafo com cor nomeada.</p>
+
+        <!-- Hex -->
+
+        <p class="hex">Texto com Hex </p>
+
+
+        <!-- Hex simplificado -->
+
+        <p class="hex_simple">Hex simplificado</p>
+
+        <!-- RBG -->
+
+        <p class="rgb">RGB em CSS</p>
+    </body>
+
+</html>
