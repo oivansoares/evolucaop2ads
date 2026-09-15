@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<header>
+    <meta charset="UTF-8">
+    <title>Formulário Simplesr</title>
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 255, 254);
+        padding-bottom: 500px;
+}
+header{
+
+    background-color: #8f8f8f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+
+    background-color: rgb(23, 23, 23);
+    padding: 10px 0;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color:rgb(255, 255, 255)
+}
+nav a:hover{
+    background-color: #266;
+}
+
+
+.teste{
+
+    background-color:#266 ;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+.services{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap:20px;
+
+}
+.service{
+
+    flex: 1;
+    padding: 50px;
+    text-align: left;
+    background-color:rgb(236, 238, 238) ; 
+    border: 5px solid ;
+    border-color: #333;
+   
+}
+
+img{
+ height: auto;
+ border-radius: 8pix;
+ width: 100%;
+
+
+}
+
+form{
+    background-color: #0000005f;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  label{
+    display: block;
+    margin-top: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+    input[type="tel"],
+    input[type="file"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border:1px solid #ccc;
+      box-sizing: border-box;
+    }
+    textarea {
+      resize: vertical;
+    }
+    .form-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+      padding: 10px 20px;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      margin-right: 10px;
+    }
+    input[type="reset"] {
+      background-color: #f44336;
+    }
+   
+  
+  </style>
+
+
+
+</style>
+
+
+    <h1>Formulário Simples</h1>
+</header>
+
+
+<body>
+
+<nav>
+    <a href="#">Sobre</a>
+    <a href="#">Contatos</a>
+    <a href="#">FeedBack</a>
+
+
+</nav>
+
+
+    <section class="services">
+        <div class="service">
+            <h3>Sobre </h3>
+            <p>Preencha o  formulário abaixo para entrar em contato conosco</p>
+            <img src="https://up.yimg.com/ib/th/id/OIP.muhSTvWSTfBRYnYgIrg0EgHaGl?pid=Api&rs=1&c=1&qlt=95&w=121&h=108">
+
+        </div>
+
+        <div class="service">
+
+            <h3> Feedback</h3> 
+            <img src="https://up.yimg.com/ib/th/id/OIP.LTKGbuBmAlipCHaXSjsrLgHaD6?pid=Api&rs=1&c=1&qlt=95&w=237&h=125">
+            <p>Aqui estão algumas informações</p>
+
+
+
+        </div>
+
+       
+
+    </section>
+
+
+</div>
+
+<div>
+ <section id="contato">
+    <h2 style="text-align: center;">Contato</h2>
+    <form>
+      <label for="nome">Nome Completo:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required />
+
+      <label for="cpf">CPF:</label>
+      <input type="text" id="cpf" name="cpf" required />
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required />
+
+      <label for="cep">CEP:</label>
+      <input type="text" id="cep" name="cep" required />
+
+      <label for="pais">País:</label>
+      <input type="text" id="pais" name="pais" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <label for="motivo">Motivo do Contato:</label>
+      <select id="motivo" name="motivo" required>
+        <option value="">Selecione...</option>
+        <option value="elogio">Elogio</option>
+        <option value="sugestao">Sugestão</option>
+        <option value="reclamacao">Reclamação</option>
+        <option value="duvida">Dúvida</option>
+      </select>
+
+      <label for="arquivo">Anexar Arquivo:</label>
+      <input type="file" id="arquivo" name="arquivo" />
+
+      <div class="form-buttons">
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </div>
+    </form>
+  </section>
+
+
+
+
+</body>
+
+</html>
