@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
 
-   <!-- Internal CSS -->
-   
-   <!-- <style>
+    <!-- Internal CSS -->
+
+    <!-- <style>
         p {
             color: rgb(0, 0, 0);
         }
@@ -29,7 +29,7 @@
     <h2 style="color: red; font-size: 30px; border-bottom: 1px solid black;">Mudar cor e tamanho do texto</h2>
 
     <!-- Internal CSS -->
-    
+
     <p>Este é um parágrafo com estilo interno.</p>
     <p>Mais um vez fui estilizado com CSS interno.</p>
 
@@ -56,7 +56,7 @@
 
     <!-- Classes -->
 
-     <p class="paragrafo">Este é um parágrafo com estilo de classe.</p>
+    <p class="paragrafo">Este é um parágrafo com estilo de classe.</p>
     <p class="paragrafo">Mais um parágrafo com estilo de classe.</p>
 
     <!-- IDs -->
@@ -64,49 +64,152 @@
     <h1 id="titulo">Este é um título com estilo de ID.</h1>
 
     <!-- Ordem dos seletores -->
-    
-     <h2 id="outro_titulo" class="subtitulo">Este é um subtítulo com estilo de ID e classe.</h2>
-      <h2 class="subtitulo">Este é um subtítulo com estilo de ID e classe.</h2>
-       <h2>Este é um subtítulo com estilo de ID e classe.</h2>
 
-       <!-- Cores em CSS -->
+    <h2 id="outro_titulo" class="subtitulo">Este é um subtítulo com estilo de ID e classe.</h2>
+    <h2 class="subtitulo">Este é um subtítulo com estilo de ID e classe.</h2>
+    <h2>Este é um subtítulo com estilo de ID e classe.</h2>
 
-        <h1 style="color: #FF5733;">Este é um título com cor hexadecimal.</h1>
-        <h1 style="color: rgb(251, 87, 51);">Este é um título com cor RGB.</h1>
-        <h1 style="color: rgba(255, 87, 51, 0.5);">Este é um título com cor RGBA.</h1>
-        <h1 style="color: hsl(11, 80%, 50%);">Este é um título com cor HSL.</h1>
-        <h1 style="color: red;">Este é um título com cor nomeada.</h1>
-        <p class="color-name">Este é um parágrafo com cor nomeada.</p>
+    <!-- Cores em CSS -->
 
-        <!-- Hex -->
+    <h1 style="color: #FF5733;">Este é um título com cor hexadecimal.</h1>
+    <h1 style="color: rgb(251, 87, 51);">Este é um título com cor RGB.</h1>
+    <h1 style="color: rgba(255, 87, 51, 0.5);">Este é um título com cor RGBA.</h1>
+    <h1 style="color: hsl(11, 80%, 50%);">Este é um título com cor HSL.</h1>
+    <h1 style="color: red;">Este é um título com cor nomeada.</h1>
+    <p class="color-name">Este é um parágrafo com cor nomeada.</p>
 
-        <p class="hex">Texto com Hex </p>
+    <!-- Hex -->
 
-
-        <!-- Hex simplificado -->
-
-        <p class="hex_simple">Hex simplificado</p>
-
-        <!-- RBG -->
-
-        <p class="rgb">RGB em CSS</p>
+    <p class="hex">Texto com Hex </p>
 
 
-        <!-- Background-color -->
+    <!-- Hex simplificado -->
 
-        <p class="fundo">Elementos do Fundo</p>
+    <p class="hex_simple">Hex simplificado</p>
 
-        <p class="bg">Variação</p>
+    <!-- RBG -->
 
-      <!-- Opacidade no background -->
-       <div class="bg-opacity">
+    <p class="rgb">RGB em CSS</p>
+
+
+    <!-- Background-color -->
+
+    <p class="fundo">Elementos do Fundo</p>
+
+    <p class="bg">Variação</p>
+
+    <!-- Opacidade no background -->
+    <div class="bg-opacity">
         <p> Estou Aqui!</p>
-        </div>
+    </div>
 
-        <div class="bg-opacity2">
+    <div class="bg-opacity2">
         <p> Estou quase Aqui!</p>
-        </div>
+    </div>
 
-    </body>
+    <div class="rgba-opacity">
+        <!-- RGBA com opacidade -->
+        <h1>Este titulo precisa estar visivel</h1>
+    </div>
+    <!-- bg image -->
+
+    <h1 class="bg-image">Este titulo tem uma imagem</h1>
+
+
+    <div class="not-center-bg"></div>
+    
+    <div class="center-bg"></div>
+
+
+
+
+    <!-- Box Model (Altura e Largura) -->
+
+  <div class="heigth-width"></div>
+  <div class="width"></div>
+
+  <!-- Padding -->
+
+  <div class="not-padding">Não tem padding</div>
+  <div class="padding">Tem padding</div>
+
+  <!-- padding individual -->
+
+  <p class="padding-indiv">Este elemento tem paddings diferentes</p>   
+
+  <!-- Shorthand padding -->
+
+  <p class="shorthand-padding">Shorthand , textos</p>
+
+  <div class="without-border-box">
+
+<!-- Border box -->
+
+<p>Sem border box</p>
+
+  </div>
+
+  <div class="border-box">
+
+<p>Com border box</p>
+
+  </div>
+
+  <!-- Border  -->
+
+  <div class="border">Borda</div>
+
+  <div class="border-2">Borda 2</div>
+
+
+  <!-- Border Individual -->
+
+<p class="border-left">Borda na esquerda</p>
+<p class="border-bottom">Borda embaixo</p>
+
+<!-- Border Arrendoda -->
+
+<div class="arredondada">Eu estou arrendondada</div>
+
+<div class="arredondada-2">Eu estou arrendondada</div>
+
+<!-- Margin -->
+
+<div class="margin">Eu tenho margem</div>
+<div class="margin-top">Margem no Topo</div>
+<div class="margin-short">Margem em Shorthand</div>
+
+
+<!-- Box Model -->
+
+<div class="box-model">
+
+<h2>Tenho todas as propriedades do box model</h2>
+
+</div>
+
+
+<!-- Text decoration -->
+
+<p class="underline">Com underline</p>
+
+<p class="text-decoration">EU TENHO UM RISCO</p>
+
+<a href="#" class="remove-under">Sem underline</a>
+
+<!-- Display -->
+ <br>
+
+<div class="inline-box">a</div>
+<div class="inline-box">b</div>
+<div class="inline-box">c</div>
+
+<!-- Escondedno elementos -->
+
+<p class="invisivel">Me encontre</p>
+
+</body>
+
+
 
 </html>
