@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2> Calcular Idade</h2>
+    Nome:<input id="nome"><br><br><br>
+    Ano de nascimento:<input id="ano"><br><br><br>
+    <button onclick="calcular()">Calcular</button>
+    <p id="resultado"></p>
+
+
+    <script>
+
+
+
+
+
+        function calcular(){
+
+            const nome = document.getElementById("nome").value;
+            const ano = document.getElementById("ano").value;
+            const idade = new Date().getFullYear() - ano;
+
+            document.getElementById("resultado").innerHTML = "Olá " + nome + ", você tem " + idade + " anos.";
+            document.getElementById("resultado").style.color = "lightblue";
+            document.getElementById("resultado").style.fontSize = "20px";
+            document.getElementById("resultado").style.background = "black";
+
+
+
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

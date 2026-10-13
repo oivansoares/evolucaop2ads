@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocar cor de fundo</title>
+
+    <style>
+        body {
+            background-color: #1a1a2e;
+            transition: background-color 0.4s;
+        }
+
+        button {
+            padding: 12px 20px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="botao">Trocar cor</button>
+
+    <script>
+        const cores = [
+            "#e34f6f", "#f5a623","#f8e71c", "#7ed321", "#50e3c2", "#4a90e2","#9013fe", "#d0021b"
+        ];
+
+        const botao = document.querySelector("#botao");
+
+        botao.addEventListener("click", function () {
+            const i = Math.floor(Math.random() * cores.length);
+
+            document.body.style.backgroundColor = cores[i];
+        });
+    </script>
+
+</body>
+
+</html>
