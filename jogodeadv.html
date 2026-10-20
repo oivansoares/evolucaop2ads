@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2> Jogo de Adivinhação</h2>
+    Adivinhe o número:<input id="number"><br><br><br>
+    <button onclick="calcular()">Adivinhar</button>
+    <p id="resultado"></p>
+
+
+    <script>
+
+
+
+
+
+        function calcular(){
+
+            const numero = (document.getElementById("number").value);
+            const secreto = Math.floor(Math.random() * 10) + 1;
+
+            if (numero == secreto){
+                document.getElementById("resultado").innerHTML = " 🎉 Parabéns, você acertou!";
+            } else {
+                document.getElementById("resultado").innerHTML = " 🤷‍♂️ Que pena, você errou! O número secreto era: " + secreto;
+            }
+
+            document.getElementById("resultado").style.color = "lightblue";
+            document.getElementById("resultado").style.fontSize = "20px";
+            document.getElementById("resultado").style.background = "black"; 
+           }
+
+
+
+        
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
