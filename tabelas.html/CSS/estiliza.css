@@ -344,4 +344,14 @@ left: 100px;
     display:none
 }
 
+.fixed{
+
+    position: fixed;
+    height: 100px;
+    width:100px;
+    background-color: #567;
+    border: 1 px solid #9c1010;
+    color: aliceblue;
+
+}
 
